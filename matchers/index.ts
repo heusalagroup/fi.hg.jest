@@ -2,3 +2,10 @@
 
 import "./toBeIsoDateString";
 import "./toBeNonEmptyString";
+import "./toBeBoolean";
+import "./toBeNumber";
+import "./toBeNumberArray";
+import "./toBeArray";
+import "./toBeString";
+import "./toBeStringArray";
+import "./toBeRegularObject";

@@ -7,6 +7,13 @@ This add on introduces these matchers:
  * `expect( something ).toBeIsoDateString()` tests for a string data in 
    standard format, e.g. `YYYY-MM-DDTHH:MM:SS`.
  * `expect( something).toBeNonEmptyString()` tests for a non-empty string
+ * `expect( something).toBeString()` tests for a string
+ * `expect( something).toBeArray()` tests for a any[]
+ * `expect( something).toBeStringArray()` tests for a string[]
+ * `expect( something).toBeNumberArray()` tests for a number[]
+ * `expect( something).toBeNumber()` tests for a number
+ * `expect( something).toBeBoolean()` tests for a boolean
+ * `expect( something).toBeRegularObject()` tests for a regular object
 
 Your test file must also import:
 

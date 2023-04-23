@@ -7,6 +7,13 @@ declare global {
         interface Matchers<R> {
             toBeIsoDateString(): JestPassObject | Promise<JestPassObject>;
             toBeNonEmptyString(): JestPassObject | Promise<JestPassObject>;
+            toBeString(): JestPassObject | Promise<JestPassObject>;
+            toBeNumber(): JestPassObject | Promise<JestPassObject>;
+            toBeBoolean(): JestPassObject | Promise<JestPassObject>;
+            toBeArray(): JestPassObject | Promise<JestPassObject>;
+            toBeStringArray(): JestPassObject | Promise<JestPassObject>;
+            toBeNumberArray(): JestPassObject | Promise<JestPassObject>;
+            toBeRegularObject(): JestPassObject | Promise<JestPassObject>;
         }
     }
 }
