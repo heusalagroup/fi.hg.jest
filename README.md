@@ -4,7 +4,7 @@ HG's additions to jest testing framework as a git submodule
 
 This add on introduces these matchers:
 
- * `expect( something ).toBeISODateString()` makes sure the date string is in 
+ * `expect( something ).toBeIsoDateString()` makes sure the date string is in 
    standard format, e.g. `YYYY-MM-DDTHH:MM:SS`.
 
 Your test file must also import:

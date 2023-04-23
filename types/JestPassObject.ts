@@ -2,7 +2,7 @@
 
 import { explainRegularObject, isRegularObject } from "../../core/types/RegularObject";
 import { explainNoOtherKeysInDevelopment, hasNoOtherKeysInDevelopment } from "../../core/types/OtherKeys";
-import { explainString, isString } from "../../core/types/String";
+import { isString } from "../../core/types/String";
 import { explainBoolean, isBoolean } from "../../core/types/Boolean";
 import { explain, explainProperty } from "../../core/types/explain";
 import { explainFunction, isFunction } from "../../core/types/Function";
