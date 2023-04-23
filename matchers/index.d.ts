@@ -6,6 +6,7 @@ declare global {
     namespace jest {
         interface Matchers<R> {
             toBeIsoDateString(): JestPassObject | Promise<JestPassObject>;
+            toBeNonEmptyString(): JestPassObject | Promise<JestPassObject>;
         }
     }
 }
