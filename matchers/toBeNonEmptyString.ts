@@ -9,7 +9,7 @@ expect.extend(
             if ( isNonEmptyString(received) ) {
                 return createJestPassObject(true, `Expected '${received}' not to be a non-empty string`);
             } else {
-                return createJestPassObject(false, explainNonEmptyString(received));
+                return createJestPassObject(false, `Expected '${received}' to be a non-empty string: ${explainNonEmptyString(received)}`);
             }
         }
     }

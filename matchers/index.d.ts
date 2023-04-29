@@ -10,6 +10,7 @@ declare global {
             toBeString(): JestPassObject | Promise<JestPassObject>;
             toBeNumber(): JestPassObject | Promise<JestPassObject>;
             toBeBoolean(): JestPassObject | Promise<JestPassObject>;
+            toBeFunction(): JestPassObject | Promise<JestPassObject>;
             toBeArray(): JestPassObject | Promise<JestPassObject>;
             toBeStringArray(): JestPassObject | Promise<JestPassObject>;
             toBeNumberArray(): JestPassObject | Promise<JestPassObject>;

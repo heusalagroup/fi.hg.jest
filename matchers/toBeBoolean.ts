@@ -7,9 +7,9 @@ expect.extend(
     {
         toBeBoolean (received: any): JestPassObject | Promise<JestPassObject> {
             if ( isBoolean(received) ) {
-                return createJestPassObject(true, `Expected '${received}' not to be a valid ISO date string`);
+                return createJestPassObject(true, `Expected '${received}' not to be a boolean`);
             } else {
-                return createJestPassObject(false, explainBoolean(received));
+                return createJestPassObject(false, `Expected '${received}' to be a boolean: ${explainBoolean(received)}`);
             }
         }
     }

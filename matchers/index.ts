@@ -7,5 +7,6 @@ import "./toBeNumber";
 import "./toBeNumberArray";
 import "./toBeArray";
 import "./toBeString";
+import "./toBeFunction";
 import "./toBeStringArray";
 import "./toBeRegularObject";

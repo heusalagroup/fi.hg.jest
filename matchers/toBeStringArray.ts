@@ -7,9 +7,9 @@ expect.extend(
     {
         toBeStringArray (received: any): JestPassObject | Promise<JestPassObject> {
             if ( isStringArray(received) ) {
-                return createJestPassObject(true, `Expected '${received}' not to be a valid ISO date string`);
+                return createJestPassObject(true, `Expected '${received}' not to be string[]`);
             } else {
-                return createJestPassObject(false, explainStringArray(received));
+                return createJestPassObject(false, `Expected '${received}' to be string[]: ${explainStringArray(received)}`);
             }
         }
     }

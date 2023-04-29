@@ -9,7 +9,7 @@ expect.extend(
             if ( isIsoDateString(received) ) {
                 return createJestPassObject(true, `Expected '${received}' not to be a valid ISO date string`);
             } else {
-                return createJestPassObject(false, explainIsoDateString(received));
+                return createJestPassObject(false, `Expected '${received}' to be a valid ISO date string: ${explainIsoDateString(received)}`);
             }
         }
     }
