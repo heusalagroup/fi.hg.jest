@@ -1,7 +1,7 @@
 // Copyright (c) 2023. Heusala Group Oy <info@heusalagroup.fi>. All rights reserved.
 
 import { createJestPassObject, JestPassObject } from "../types/JestPassObject";
-import { explainIsoDateString, isIsoDateString } from "../../core/types/IsoDateString";
+import { explainIsoDateString, isIsoDateString } from "../../core/types/Date";
 
 expect.extend(
     {
