@@ -5,6 +5,7 @@ import { JestPassObject } from "../types/JestPassObject";
 declare global {
     namespace jest {
         interface Matchers<R> {
+            toBeIsoDateStringWithMilliseconds(): JestPassObject | Promise<JestPassObject>;
             toBeIsoDateString(): JestPassObject | Promise<JestPassObject>;
             toBeNonEmptyString(): JestPassObject | Promise<JestPassObject>;
             toBeString(): JestPassObject | Promise<JestPassObject>;
